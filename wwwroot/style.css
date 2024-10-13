@@ -47,16 +47,16 @@ h1 {
 
 
 #pokeImage {
-  width: 100px; /* Make the image slightly smaller */
+  width: 100px; 
   height: 100px;
-  border-radius: 50%; /* Keeps the circular shape */
+  border-radius: 50%; 
   display: block;
-  margin: 10px auto; /* Adds space between the image and other elements */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Smooth transition for the bounce */
+  margin: 10px auto; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); 
 }
 
 #clickButton:active #pokeImage {
-  animation: bounce 0.2s ease-in-out; /* Bounce animation */
+  animation: bounce 0.2s ease-in-out; 
 }
 
 @keyframes bounce {
