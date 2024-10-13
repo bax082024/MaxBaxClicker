@@ -4,14 +4,14 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: yellow; /* Background color for the game */
+  background-color: rgb(180, 180, 180); /* Background color for the game */
   font-family: Arial, sans-serif;
 }
 
 #gameContainer {
   text-align: center;
   background-color: #fff;
-  border: 2px solid #ccc;
+  border: 4px solid #080808;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
@@ -41,14 +41,15 @@ h1 {
   margin: 0 auto;
 }
 
+
+
 #pokeImage {
-  width: 90px; /* Adjusted width */
-  height: 90px; /* Adjusted height */
-  object-fit: cover;
-  object-position: 50% ; /* This moves the face up so more is visible */
-  border-radius: 50%; /* Circular image */
-  pointer-events: none;
-  transition: transform 0.2s ease-in-out; /* Smooth transition for the bounce */
+  width: 90px; /* Make the image slightly smaller */
+  height: 90px;
+  border-radius: 50%; /* Keeps the circular shape */
+  display: block;
+  margin: 10px auto; /* Adds space between the image and other elements */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Smooth transition for the bounce */
 }
 
 #clickButton:active #pokeImage {
