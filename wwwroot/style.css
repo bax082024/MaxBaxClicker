@@ -4,13 +4,16 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: rgb(180, 180, 180); /* Background color for the game */
+  background-image: url(images/marble1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   font-family: Arial, sans-serif;
 }
 
 #gameContainer {
   text-align: center;
-  background-color: #fff;
+  background-color: #f0f7d3;
   border: 4px solid #080808;
   padding: 20px;
   border-radius: 10px;
