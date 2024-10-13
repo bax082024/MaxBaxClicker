@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaxBaxClicker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af4615728ff2c25cb7eaf1812e9d6630beefa80d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e7a6a6bb6f570db233b2cdc70d0450c852ffc53")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaxBaxClicker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaxBaxClicker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

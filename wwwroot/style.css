@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: yellow; /* Background color for the game */
+  font-family: Arial, sans-serif;
+}
+
+#gameContainer {
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: red;
+}
+
+#cookieCount {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#clickButton {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+#pokeImage {
+  width: 90px; /* Adjusted width */
+  height: 90px; /* Adjusted height */
+  object-fit: cover;
+  object-position: 50% ; /* This moves the face up so more is visible */
+  border-radius: 50%; /* Circular image */
+  pointer-events: none;
+  transition: transform 0.2s ease-in-out; /* Smooth transition for the bounce */
+}
+
+#clickButton:active #pokeImage {
+  animation: bounce 0.2s ease-in-out; /* Bounce animation */
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#upgrades {
+  margin-top: 20px;
+}
+
+#upgradeButton {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#upgradeButton:hover {
+  background-color: #45a049;
+}
+
+#flashNumber {
+  font-size: 2rem;
+  color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; 
+  animation: fade-out 1s forwards;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -60%);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -80%);
+  }
+}
